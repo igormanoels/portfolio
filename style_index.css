@@ -1,4 +1,6 @@
-body{
+    /* zerar as bordar da página*/
+
+    body{
     background-color: wheat;
 }
 header{
