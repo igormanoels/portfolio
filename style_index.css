@@ -1,0 +1,24 @@
+body{
+    background-color: wheat;
+}
+header{
+    background-color: aqua;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+nav{
+    background-attachment: fixed;
+    background-color: aquamarine;
+}
+
+main{
+    font-size: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(166, 243, 103);
+}
