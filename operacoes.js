@@ -1,12 +1,10 @@
 //cosiderar o botão de opção como parte de escolha para a execução da operação entre o valor 1 e 2.
-function operacoes() {
-    var entrada1 = window.document.getElementById('entrada1')
-    var entrada2 = window.document.getElementById('entrada2')
-    var ResultadoFinal = window.document.querySelector('div.ResultadoFinal')
+
+function OperacaoSimples() {
+    var entrada1 = window.document.getElementById('Entrada1')
+    var entrada2 = window.document.getElementById('Entrada2')
     var valor1 = Number(entrada1.value)
     var valor2 = Number(entrada2.value)
-    var valoroperacao = valor1 + valor2
-    ResultadoFinal.innerHTML = `O Resultado da operação é ${valoroperacao}`
-
+    var Resultado = valor1 + valor2
+    window.alert(`A soma é ${Resultado}`)
 }
-
