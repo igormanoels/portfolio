@@ -6,6 +6,6 @@ function OperacaoSimples() {
     var valor1 = Number(entrada1.value)
     var valor2 = Number(entrada2.value)
     var Resultado = valor1 + valor2
-    ResultadoFinal.innerHTML = `O resultado é ${Resultado}`
+    ResultadoFinal.innerText = `O resultado é ${Resultado}` //tanto faz innerText ou innerHTML
     //window.alert(`A soma é ${Resultado}`)
 }
