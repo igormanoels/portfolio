@@ -12,24 +12,30 @@
     <body>
         <header> 
             <h1 class="Rotulo"> Igor Manoel de Santana - Meu Portfólio </h1>
-            <div class="Idiomas"> Espanhol | Inglês | Francês | Alemão | Português </div>
+            <div class="MovIdiomas" > 
+                <div id="MovIdiEspa" onclick="IdiClicou1()" onmouseenter="IdiEnter1()" onmouseout="IdiOut1()"> Espanhol </div> 
+                <div id="MovIdiIngl" onclick="IdiClicou2()" onmouseenter="IdiEnter2()" onmouseout="IdiOut2()"> Inglês </div> 
+                <div id="MovIdiFran" onclick="IdiClicou3()" onmouseenter="IdiEnter3()" onmouseout="IdiOut3()"> Francês </div> 
+                <div id="MovIdiAlem" onclick="IdiClicou4()" onmouseenter="IdiEnter4()" onmouseout="IdiOut4()"> Alemão </div> 
+                <div id="MovIdiPort" onclick="IdiClicou5()" onmouseenter="IdiEnter5()" onmouseout="IdiOut5()"> Português </div> 
+            </div>
         </header>
 
         <nav>
             <ul>
-                <li>Acadêmico</li>
-                <li>Menu 2</li>
-                <li>Aplicações</li>
+                <li>In&iacute;cio</li>
+                <li>Acad&ecirc;mico</li>
+                <li>Aplica&ccedil;&otilde;es</li>
                     <ul>
-                        <li> Cálculadora </li>
-                        <li> Conversões </li>
-                        <li> Operações </li>
+                        <li> C&aacute;lculadora </li>
+                        <li> Convers&otilde;es </li>
+                        <li> Opera&ccedil;&otilde;es </li>
                     </ul>
                 <li> Entretenimento </li>
                     <ul>
                         <li> Arkanoid </li>
                         <li> Space Invaders</li>
-                        <li> Fórmula 1 </li>
+                        <li> F&oacute;rmula 1 </li>
                         <li> Nave </li>
                         <li> Plataforma </li>
                         <li> Snake </li>
@@ -42,7 +48,7 @@
         
         <main>
             <div> 
-                <h2> Operações Básicas </h2> 
+                <h2> Opera&ccedil;&otilde;es B&aacute;sicas </h2> 
             </div>
             
             <form>
@@ -95,18 +101,7 @@
             Rodapé - Inserir link para as redes sociais
             <br> 2023 © Todos os Direitos Reservados. Idealizado por Igor Manoel
         </footer>
-<!--
-        <script>
-            function operacoes() {
-    var entrada1 = window.document.getElementById('Entrada1');
-    var entrada2 = window.document.getElementById('Entrada2');
-    var ResultadoFinal = window.document.getElementById('ResultadoFinal');
-    var valor1 = Number(entrada1.value);
-    var valor2 = Number(entrada2.value);
-    var valoroperacao = valor1 + valor2;
-    ResultadoFinal.innerHTML = `O Resultado da operação é ${valoroperacao}`;
-}
-        </script> -->
+
     </body>
 
 </html>
